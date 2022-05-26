@@ -5,4 +5,4 @@ $block = {
     $SpeechSynth.Speak("did you know?"+$CatFact)
 }
 
-Invoke-Command -ComputerName VictimPC -ScriptBlock $block
+Invoke-Command -ScriptBlock $block

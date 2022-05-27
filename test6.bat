@@ -1,4 +1,3 @@
 echo test
-cd C:\
-cd %username%
+cd %USERPROFILE%
 mkdir test

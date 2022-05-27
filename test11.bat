@@ -2,7 +2,7 @@ echo test
 echo %username%
 echo $username
 echo $%username%
-echo
+echo ''
 echo %userprofile%
 echo $userprofile
 echo $%userprofile%

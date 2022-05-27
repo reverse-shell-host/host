@@ -1,4 +1,4 @@
 echo test
 cd C:\
-cd %userprofile%
+cd %username%
 mkdir test

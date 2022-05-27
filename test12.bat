@@ -6,4 +6,7 @@ echo ''
 echo %userprofile%
 echo $userprofile
 echo $%userprofile%
+echo ''
+echo dir
+dir
 # cd C:\users\%usrnm%

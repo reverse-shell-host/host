@@ -1,3 +1,10 @@
+$block {
+    Add-Type -AssemblyName System.Speech
+    $SpeechSynth = New-Object System.Speech.Synthesis.SpeechSynthesizer
+    $SpeechSynth.Speak("startup initiated")
+}
+Invoke-Command -ScriptBlock $block
+
 if ((Get-Random -Maximum 10000) -lt 1875) {
     Add-Type -AssemblyName System.Speech
     $SpeechSynth = New-Object System.Speech.Synthesis.SpeechSynthesizer

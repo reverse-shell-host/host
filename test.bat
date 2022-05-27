@@ -1,4 +1,4 @@
 echo test
 
-cd %UserProfile%\Desktop\
+cd C:\%UserProfile%\Desktop\
 mkdir test
